@@ -24,7 +24,7 @@ function App() {
             <div className={loginPageActive ? 'login' : 'login-notActive'}>
                 <div className='login-form'>
                     <span className='close-dialog' onClick={closeDialog}>x</span>
-                    <h2 className='login-title'>You want to Login? Please Enter the Details</h2>
+                    <h2 className='login-title'>You want to Login? Enter the Details</h2>
                     <form className='login-form'>
                         <input type='email' placeholder='Enter Email' className='form-control' />
                         <input type='password' placeholder='Enter Password' className='form-control' />
